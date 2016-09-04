@@ -40,6 +40,7 @@ def isExists(folder):
         logWrite('Folder '+folder+'donesn\'n exists')
 
 def copy(source,target):
+    freeOnDrive('/') #testing space of harddrive
     if isExists(source) == True and isExists(target) == True:
         try:
             su.copytree(source,target,symlinks=True, ignore=none)
