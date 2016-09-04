@@ -2,6 +2,8 @@
 
 Simple script for backup db files to ext drive
 
-DEPENDECIES
+DEPENDENCIES
+-----------
+
 python3.5 (testing)
 
