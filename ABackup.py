@@ -12,8 +12,8 @@ __status__ = 'production'
 import os, datetime, sys
 import shutil as su
 
-target = r'/home/moula/Documents/project/test/'
-source = r'/home/moula/Documents/project/jidelak-windows/'
+target = r'path'
+source = r'path'
 freedisk = 5.0 #5GB free
 
 def logWrite(string):
